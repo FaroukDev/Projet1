@@ -1,0 +1,47 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.navM {
+    background-color: rgb(29, 47, 53) !important;
+    margin-left: -6.5vw; 
+    width: 106.5vw !important;
+}
+
+.navbarTitle {
+    padding-left: 4vw;
+}
+
+.navM a {
+    color: whitesmoke !important;
+}
+
+.iconM {
+    padding-right: 6rem;
+}
+
+.navbar-toggler-icon {
+    color: whitesmoke !important;
+}
+
+.modifM {
+    margin-left: 29rem;
+}
+
+.menuNavbar {
+    background-color:  rgb(45, 89, 104) !important;
+}
+
+.itemMenu:hover {
+    background-color: rgb(29, 47, 53) !important;
+}
+
+@media screen and (max-width:768px) {
+    .modifM {
+        margin-left: 0;
+    }
+    .navM {
+        margin-left: -4vw;
+    }
+}
