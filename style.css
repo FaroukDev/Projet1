@@ -1,113 +1,40 @@
-*{
-    margin:0;
-    padding:0;
+h1 {
+    padding-left: 0.5rem;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
+.container   {
+   padding-left: 0rem;
 }
 
-.header{
-    
-    height:4rem;
+.container h3   {
+    margin-left: -1rem; 
 }
 
-
-.mylogo img{
-    width: 9rem;
-    height:2rem;
-    margin-top: 1rem;
+.container input   {
+    width: 15rem; 
 }
 
-
-
-
-  .header{
-
-    display:flex;
-    justify-content: space-around;
-    background-color: lightgrey;
-
-    
+.form-group_send input   {
+    margin-left: -1rem;
+    width: 5rem;
 }
 
-.title_blog h1{
-    font-size: 2rem;
-    line-height: 4rem;
+.name {
+    margin-left: -1rem; 
+}
+.contacter {
+    width: 30rem;
+    height: 13rem;
 }
 
-.bg-light {
-    background-color:lightgrey !important;
+.formulaire {
+    margin: 0 auto;
+    width: 60%
 }
-
-.navbar{
-    color:black;
+input {
+    border-radius:5px;
 }
-
-.dropdown-item{
-    width:50%;
+textarea {
+    border-radius: 5px;
+    margin-right: 1rem;
 }
-
-.card-header{
-    background-color: lightgrey;
-}
-
-
-
-.card{
-    margin-top: 12rem; 
-}
-.presentation{ 
-    padding: 2rem 2rem 2rem 2rem;  
-    display:flex;
-    justify-content:space-around;
-   
-}
-
-.portrait{
-    margin-right: 2rem;
-}
-
-.btn-success{
-    
-}
-
-
-@media screen and (max-width: 900px) {
-    .header {
-      display:flex;
-      flex-flow: wrap;
-    }
-
-    .title_blog h1{
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .header{
-        background-color: white;
-    }
-
-    .bg-light {
-        background-color:white !important;
-    }
-
-    .navbar{
-        z-index: 1000 ;
-    }
-
-    .presentation{
-        display:flex;
-        flex-flow: wrap;
-    }
-
-    .portrait img{
-        width:100%;
-    }
-    
-  }
-
-  
-
-
-  
