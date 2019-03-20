@@ -3,8 +3,24 @@
     padding:0;
 }
 
+/* style de la card avec abdou :)*/
 
+.card-header{
 
+    background-color:#333333;
+    color: white;
+
+}
+
+/* j'ai styliser les boutons*/
+
+.btn-success{
+
+    background-color: #333333;
+
+    border-color:grey !important;
+
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -12,7 +28,7 @@ body{
 
 .carousel-item {
 
-    height: 100vh;
+    /*height: 100vh;*/
 
     min-height: 350px;
 
@@ -25,12 +41,12 @@ body{
     -o-background-size: cover;
 
     background-size: cover;
-
   }
 
-.card-header{
-    background-color: #7784E4;
-}
+  .description {
+      font-size: 1.3rem; 
+  }
+
 
 .card{
     margin-bottom: 0.5rem;
@@ -38,6 +54,8 @@ body{
     border: none;
    
 
+
+    
 }
 .presentation{ 
     padding: 2rem 2rem 2rem 2rem;  
@@ -58,16 +76,12 @@ body{
     margin-right: 2rem;
 }
 
-.btn-success{
-    background-color: #7784E4;
-    border-color:grey !important;
+.btn-success:hover {
+    color:black;
+    background-color: white;
+    border-color: grey;
 }
 
-.btn-succes:hover{
-    background-color:#0251BA !important; 
-
-}
- 
 .card-image{
     opacity: 0.8;
 }
@@ -127,9 +141,7 @@ body{
         background-color: white;
     }
 
-    .bg-light {
-        background-color:white !important;
-    }
+ 
 
     .navbar{
         z-index: 1000 ;
@@ -146,7 +158,3 @@ body{
     
   }
 
-  
-
-
-  
